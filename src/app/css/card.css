@@ -1,0 +1,36 @@
+.contect{
+    display: flex;
+    margin-top: 20rem;
+}
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 36px;
+  perspective: 2500px;
+  margin: 0 50px;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+.card1, .card2, .card4{
+  display: block;
+  color: black;
+}
+.img{
+  width: 300px;
+}
+img{
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+.describe{
+  background-color: rgba(255, 255, 255, 0.658);
+  border-end-end-radius: 5px;
+  border-end-start-radius: 5px;
+  text-align: center;
+  height: 150px;
+}
